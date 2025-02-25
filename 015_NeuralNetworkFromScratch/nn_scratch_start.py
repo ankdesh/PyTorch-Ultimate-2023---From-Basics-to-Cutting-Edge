@@ -6,6 +6,8 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
+import torch
+import torch.nn
 
 #%% data prep
 # source: https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
@@ -27,6 +29,7 @@ X_train_scale = scaler.fit_transform(X_train)
 X_test_scale = scaler.transform(X_test)
 
 #%% network class
+W = torch.
     
 #%% Hyper parameters
 
